@@ -1,0 +1,56 @@
+{"intents": [
+        {"tag": "cumprimento",
+                "patterns": ["Olá", "Oi", "Tudo bem?", "Tem alguem ai?", "Como vai?", "E aí?", "Beleza?"],
+                "responses": ["Olá, obrigado por nos visitar", "Tudo bem. E você?", "Oi, como posso ajuda-lo?"],
+                "context_set": ""
+        },
+        {"tag": "despedida",
+                "patterns": ["Tchau", "Até", "Até logo", "Até mais"],
+                "responses": ["Até mais, obrigado pela visita", "Tenha um ótimo dia. Espero te-lo ajudado", "Tchau, até breve."]
+        },
+        {"tag": "agradecimento",
+                "patterns": ["Obrigado", "Muito obrigado", "Isso ajudou muito", "Grato", "Valeu"],
+                "responses": ["Fico grato em ter ajudado!", "Disponha", "Nós é quem agradecemos"]
+        },
+        {"tag": "horario",
+                "patterns": ["Qual é o horario de funcionamento?", "Quando vocês abrem?", "A que horas vocês abrem?", "A loja está aberta hoje?" ],
+                "responses": ["Nós funcionamos todos os dias das 8 da manha as 8 da noite", "Nosso horário é das 08 as 20 todos os dias"]
+        },
+        {"tag": "pedido",
+                "patterns": ["Gostaria de fazer um pedido.", "Quero pedir uma pizza"],
+                "responses": ["Claro. Pode informar qual pizza gostaria?", "Sim. Pode pedir."]
+        },
+        {"tag": "pag_credito",
+                "patterns": ["Você aceita cartão de crédito?", "Você aceita Mastercard?", "Você aceita Visa?", "Voce aceita AMEX?"],
+                "responses": ["Nós aceitamos VISA, Mastercard e AMEX", "Nós aceitamos a maioria das bandeiras de cartão de crédito"]
+        },
+        {"tag": "pag_debito",
+                "patterns": ["Você aceita cartão de débito?", "Posso pagar com débito?"],
+                "responses": ["Sim, nós aceitamos cartões de débito."]
+        },
+        {"tag": "pag_dinheiro",
+                "patterns": ["Você aceita só dinheiro?" ],
+                "responses": ["Infelizmente, aceitamos apenas cartões de crédito e débito", "Aceitamos apenas pagamento com cartões"]
+        },
+        {"tag": "refrigerante",
+                "patterns": ["Vocês tem Coca-cola?", "Eu quero guarana", "Tem refrigerante?"],
+                "responses": ["Trabalhamos com Coca-cola, Fanta e Sprite", "Temos toda linha de refrigerantes da Coca-Cola"]
+        },
+        {"tag": "pizzas",
+                "patterns": ["Quais sabores de pizza vocês tem?", "Quais tipos de pizza vocês fazem?", "Que tipo de pizza você vende?", "Tem pizza?" ],
+                "responses": ["Temos vários tipos de pizza. Acesse o nosso cardapio.", "Nós temos pizza salgadas e doces. Veja o nosso cardápio."]
+        },
+        {"tag": "pizzas_tipo",
+                "patterns": ["Vocês fazem pizzas de 2 sabores?", "Posso pedir meia a meia?"],
+                "responses": ["Sim, fazemos"]
+        },
+        {"tag": "pizzas_mussarela",
+                "patterns": ["Quero 1 pizza de mussarela", "1 mussarela", "Uma pizza de mussarela"],
+                "responses": ["Ok, pedido anotado"]
+        },
+        {"tag": "pizzas_calabresa",
+                "patterns": ["Quero 1 pizza de calabresa", "1 calabresa", "Uma pizza de calabresa"],
+                "responses": ["Ok, pedido anotado"]
+        }
+   ]
+}

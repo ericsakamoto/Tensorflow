@@ -1,0 +1,22 @@
+sudo apt install awscli
+sudo apt-get install python3-pip python3-dev python-virtualenv
+sudo apt-get update
+virtualenv --system-site-packages -p python3 ~/tensorflow
+source ~/tensorflow/bin/activate
+pip3 install --upgrade tensorflow
+pip3 install h5py
+pip3 install scipy
+pip3 install -U nltk
+pip3 install tflearn
+aws s3 cp s3://sakamoto-lifecycle/intents_ptBR.json intents_ptBR.json
+aws s3 cp s3://sakamoto-lifecycle/tensorflow_chatbot_ptBR.py tensorflow_chatbot_ptBR.py
+aws s3 cp s3://sakamoto-lifecycle/tensorflow_chatbot__runptBR.py tensorflow_chatbot_run_ptBR.py
+python3
+>>> import nltk
+>>> nltk.download()
+>>> d
+>>> all
+python3 tensorflow_chatbot_ptBR.py
+python3 tensorflow_chatbot_run_ptBR.py
+
+aws s3 cp word2vec.py s3://sakamoto-lifecycle/word2vec/word2vec.py

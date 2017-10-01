@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/ericsakamoto/Documents/Projetos/Tensorflow/Chatbot/model.tflearn"
+all_model_checkpoint_paths: "/Users/ericsakamoto/Documents/Projetos/Tensorflow/Chatbot/model.tflearn"

@@ -1,0 +1,13 @@
+*.pyc
+
+*.local
+
+*.data-00000-of-00001
+
+*.index
+
+*.meta
+
+Word2Vec/text8
+
+FraudDetection/data/creditcard.csv
